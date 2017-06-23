@@ -30,12 +30,9 @@ in the project folder.
 5. Submit a pull request
 
 ## Credits
-Inspired by…
-- Matt Modrowski's [Gulp Workflow](http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/)
-- the common [Sass file architecture](https://www.sitepoint.com/architecture-sass-project/)
-
 Based on Seth Coelen's [Skeleton-Sass](https://github.com/WhatsNewSaes/Skeleton-Sass), which usefully extends the famed [Skeleton Framework](http://getskeleton.com/) by David Gamache.
 Using David Perry's [Cardo](https://fonts.google.com/specimen/Cardo) and Eduardo Tunni's [Pathway Gothic One](https://fonts.google.com/specimen/Pathway+Gothic+One) font families. 
+Inspired by Matt Modrowski's [Gulp Workflow](http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/) and the [common Sass file architecture](https://www.sitepoint.com/architecture-sass-project/).
 
 ## License
 Released under the MIT license.
