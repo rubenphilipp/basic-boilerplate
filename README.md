@@ -10,6 +10,12 @@ npm install
 command in the project folder.
 
 ## Usage
+If you'd like to manually compile the Sass files, concatenate and minimize the JavaScript files, and optimize the images run: 
+```
+gulp styles
+gulp scripts
+gulp images
+```
 To run the development environment, run 
 ```
 gulp
@@ -28,8 +34,7 @@ Inspired by…
 - Matt Modrowski's [Gulp Workflow](http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/)
 - the common [Sass file architecture](https://www.sitepoint.com/architecture-sass-project/)
 
-Based on…
-- [Skeleton](https://github.com/dhg/Skeleton)
+Based on Seth Coelen's [Skeleton-Sass](https://github.com/WhatsNewSaes/Skeleton-Sass), which usefully extends the famed [Skeleton Framework](http://getskeleton.com/) by David Gamache.
 
 ## License
 Released under the MIT license.
