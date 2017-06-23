@@ -26,7 +26,7 @@ in the project folder.
 ## Credits
 Inspired by…
 - Matt Modrowski's [Gulp Workflow](http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/)
-- the common [Sass file structure](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+- the common [Sass file architecture](https://www.sitepoint.com/architecture-sass-project/)
 
 Based on…
 - [Skeleton](https://github.com/dhg/Skeleton)
