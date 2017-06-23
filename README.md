@@ -35,6 +35,7 @@ Inspired by…
 - the common [Sass file architecture](https://www.sitepoint.com/architecture-sass-project/)
 
 Based on Seth Coelen's [Skeleton-Sass](https://github.com/WhatsNewSaes/Skeleton-Sass), which usefully extends the famed [Skeleton Framework](http://getskeleton.com/) by David Gamache.
+Using David Perry's [Cardo](https://fonts.google.com/specimen/Cardo) and Eduardo Tunni's [Pathway Gothic One](https://fonts.google.com/specimen/Pathway+Gothic+One) font families. 
 
 ## License
 Released under the MIT license.

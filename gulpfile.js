@@ -42,7 +42,7 @@ gulp.task('styles', function(){
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
     .pipe(gulp.dest('dist/styles/'))
-    .pipe(browserSync.reload({stream:true}))
+    //.pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('images', function(){
@@ -60,7 +60,7 @@ gulp.task('scripts', function(){
     .pipe(uglify())
     .on('error', gutil.log)
     .pipe(gulp.dest('dist/scripts/'))
-    .pipe(browserSync.reload({stream:true}))
+    //.pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('bs-reload', function () {
@@ -70,5 +70,5 @@ gulp.task('bs-reload', function () {
 gulp.task('default', ['browser-sync'], function () {
   gulp.watch("src/styles/**/*.scss", ['styles']);
   gulp.watch("src/scripts/**/*.js", ['scripts']);
-  gulp.watch("*.php", ['bs-reload']);
+  gulp.watch(["*.php", "dist/**"], ['bs-reload']);
 });
