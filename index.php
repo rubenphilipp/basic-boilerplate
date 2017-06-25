@@ -25,7 +25,7 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    <section class="fullscreen" style="background-color: rgb(230,230,230);">
+    <section class="fullscreen" style="background-color: rgb(240,240,240);">
       <header style="text-align: right; padding-right: 20px;">
         <a href="http://github.com/rubenphilipp/basic-boilerplate" title="view source on GitHub">view source on GitHub</a>
       </header>
@@ -38,7 +38,7 @@
       </footer>
     </section>
 
-    <div class="container">
+    <div class="container" style="margin-top: 30px;">
 
       <h3>Grid</h3>
       <section class="row">
