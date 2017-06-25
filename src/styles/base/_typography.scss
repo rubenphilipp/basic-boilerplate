@@ -79,7 +79,12 @@ b {
 }
 
 a {
+  color:$link-color;
   font-family: $highlight-font;
   text-decoration: none;
-  border-bottom: 3px solid $font-color;
+  border-bottom: 3px solid $secondary-color;
+
+  &:hover {
+    border-bottom:3px solid $primary-color;
+  }
 }

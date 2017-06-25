@@ -25,10 +25,17 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    <section class="container u-full-width">
-      <h1>Let the journey start…</h1>
-
-      <h2>…right now</h2>
+    <section class="fullscreen" style="background-color: rgb(230,230,230);">
+      <header style="text-align: right; padding-right: 20px;">
+        <a href="http://github.com/rubenphilipp/basic-boilerplate" title="view source on GitHub">view source on GitHub</a>
+      </header>
+      <main style="padding-top: 25vh;">
+        <h1>Let the journey start…</h1>
+        <h2>…right now</h2>
+      </main>
+      <footer style="text-align: center;">
+        <p>created by <i>Ruben Philipp</i></p>
+      </footer>
     </section>
 
     <div class="container">
