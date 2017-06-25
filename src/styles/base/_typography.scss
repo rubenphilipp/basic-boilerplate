@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
+  font-family: $highlight-font;
   font-size: 4.0rem; 
   line-height: 1.2;  
   letter-spacing: -.1rem;  
@@ -64,5 +65,21 @@ h6 {
 
 p {
   margin-top: 0;
-  font-family: $serif;
+  font-family: $font-family;
+}
+
+i {
+  font-style: normal;
+  font-variant-caps: all-small-caps;
+}
+
+b {
+  font-weight:400;
+  font-family: $highlight-font;
+}
+
+a {
+  font-family: $highlight-font;
+  text-decoration: none;
+  border-bottom: 3px solid $font-color;
 }

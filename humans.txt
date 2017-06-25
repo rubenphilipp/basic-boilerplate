@@ -16,5 +16,5 @@
 # TECHNOLOGY COLOPHON
 
     Standards: CSS3/Sass, HTML5, JavaScript
-    Components: Gulp, Normalize.css, Skeleton/Skeleton-Sass, HTML5 Boilerplate
+    Components: Gulp, Normalize.css, Skeleton/Skeleton-Sass, HTML5 Boilerplate, Bulma
     Software: Sublime Text 3

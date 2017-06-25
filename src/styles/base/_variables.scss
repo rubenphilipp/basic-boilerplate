@@ -25,9 +25,10 @@ $link-color: rgb(50, 50, 50) !default;
 $font-color: rgb(50, 50, 50) !default;
 
 // Typography
-$serif: 'Cardo', serif;
-$sans-serif: 'Pathway Gothic One', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family: $serif !default;
+//$serif: 'Georgia', serif;
+$sans-serif: 'Tenor Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$highlight-font: 'Archivo Black', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family: $sans-serif !default;
 
 //Grid Variables
 $container-width: 960px !default;
