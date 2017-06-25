@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <title>Page Title</title>
   <meta name="description" content="">
-  <meta name="author" content="Ruben Philipp">
+  <meta name="author" content="humans.txt">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

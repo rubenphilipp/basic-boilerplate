@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    UI Developer & Designer: Ruben PHILIPP
+    Contact: me [at] rubenphilipp.com
+    Twitter: @rubenphilipp
+    GitHub: github.com/rubenphilipp
+    From: Dortmund, Germany
+
+# THANKS
+
+    Leon PHILIPP -- for continuous inspiration and overall support
+
+# TECHNOLOGY COLOPHON
+
+    CSS3/Sass, HTML5, JavaScript
+    Gulp, Normalize.css, Skeleton/Skeleton-Sass
