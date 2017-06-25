@@ -9,13 +9,20 @@ $bp-larger-than-desktop   : "min-width: 1000px" !default;
 $bp-larger-than-desktophd : "min-width: 1200px" !default;
 
 // Colors
+$beige: #F4F1DE !default;
+$green-sheen: #81B29A !default;
 $light-grey: #e1e1e1 !default;
+$dark-liver: #54494B !default;
+$terra-cotta: #E07A5F !default;
 $dark-grey: #333 !default;
-$primary-color: #33c3f0 !default;
-$secondary-color: lighten($dark-grey, 13.5%) !default;
-$border-color: #bbb !default;
-$link-color: #1eaedb !default;
-$font-color: #222 !default;
+$peach-orange: #F2CC8F !default;
+
+$primary-color: $terra-cotta !default;
+$secondary-color: $peach-orange !default;
+
+$border-color: $dark-liver !default;
+$link-color: rgb(50, 50, 50) !default;
+$font-color: rgb(50, 50, 50) !default;
 
 // Typography
 $serif: 'Cardo', serif;

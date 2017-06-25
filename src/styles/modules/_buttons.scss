@@ -6,7 +6,7 @@ button {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: $secondary-color;
+  color: $primary-color;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -17,7 +17,7 @@ button {
   white-space: nowrap;
   background-color: transparent;
   border-radius: $global-radius;
-  border: 1px solid $border-color;
+  border: 1px solid $primary-color;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ input {
     display: inline-block;
     height: 38px;
     padding: 0 30px;
-    color: $secondary-color;
+    color: $primary-color;
     text-align: center;
     font-size: 11px;
     font-weight: 600;
@@ -40,7 +40,7 @@ input {
     white-space: nowrap;
     background-color: transparent;
     border-radius: $global-radius;
-    border: 1px solid $border-color;
+    border: 1px solid $primary-color;
     cursor: pointer;
     box-sizing: border-box;
   }
@@ -48,8 +48,8 @@ input {
 
 .button:hover,
 button:hover {
-  color: $dark-grey;
-  border-color: lighten($dark-grey, 33.3%);
+  color: lighten($primary-color, 5%);
+  border-color: lighten($primary-color, 5%);
   outline: 0;
 }
 
@@ -57,8 +57,8 @@ input {
   &[type="submit"]:hover,
   &[type="reset"]:hover,
   &[type="button"]:hover {
-    color: $dark-grey;
-    border-color: lighten($dark-grey, 33.3%);
+    color: lighten($primary-color, 5%);
+    border-color: lighten($primary-color, 5%);
     outline: 0;
   }
 }
@@ -100,8 +100,8 @@ input {
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: $link-color;
-  border-color: $link-color;
+  background-color: lighten($primary-color, 5%);
+  border-color: lighten($primary-color, 5%);
 }
 
 input {
@@ -109,16 +109,16 @@ input {
   &[type="reset"].button-primary:hover,
   &[type="button"].button-primary:hover {
     color: #fff;
-    background-color: $link-color;
-    border-color: $link-color;
+    background-color: lighten($primary-color, 5%);
+    border-color: lighten($primary-color, 5%);
   }
 }
 
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: $link-color;
-  border-color: $link-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
 }
 
 input {
@@ -126,8 +126,8 @@ input {
   &[type="reset"].button-primary:focus,
   &[type="button"].button-primary:focus {
     color: #fff;
-    background-color: $link-color;
-    border-color: $link-color;
+    background-color: $primary-color;
+    border-color: $primary-color;
   }
   &[type="email"],
   &[type="number"],
