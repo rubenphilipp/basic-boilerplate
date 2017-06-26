@@ -2,22 +2,22 @@
 // thanks to Philip Walton's Solved by Flexbox (https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/)
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-.fullscreen {
+.fs-container {
 	display: flex;
 	min-height: 100vh;
 	width: 100%;
 	flex-direction: column;
 
-	.content {
+	.fs-content {
 		flex: 1;
 		text-align: center;
 	}
 
-	header {
+	.fs-header {
 		
 	}
 
-	footer {
+	.fs-footer {
 		
 	}
 }

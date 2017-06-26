@@ -25,17 +25,17 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    <section class="fullscreen" style="background-color: rgb(240,240,240);">
-      <header style="text-align: right; padding-right: 20px;">
+    <section class="fs-container" style="background-color: rgb(240,240,240);">
+      <header class="fs-header" style="text-align: right; padding-right: 20px;">
         <a href="http://github.com/rubenphilipp/basic-boilerplate" title="view source on GitHub">view source on GitHub</a>
       </header>
-      <div class="content u-aligner">
+      <div class="fs-content u-aligner">
         <div class="u-aligner-item">
           <h1>Let the journey start…</h1>
           <h2>…right now</h2>
         </div>
       </div>
-      <footer style="text-align: center;">
+      <footer class="fs-footer" style="text-align: center;">
         <p>created by <i>Ruben Philipp</i></p>
         <img src="dist/images/icons/mouse-scroll_down.svg" style="width: 1.5rem; height: auto; margin-bottom: 1.5rem;">
       </footer>
