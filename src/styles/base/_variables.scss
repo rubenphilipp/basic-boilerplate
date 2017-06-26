@@ -19,6 +19,7 @@ $peach-orange: #F2CC8F !default;
 
 $primary-color: $terra-cotta !default;
 $secondary-color: $peach-orange !default;
+$background-color: #fff;
 
 $border-color: $dark-liver !default;
 $link-color: rgb(50, 50, 50) !default;
@@ -28,7 +29,8 @@ $font-color: rgb(50, 50, 50) !default;
 //$serif: 'Georgia', serif;
 $sans-serif: 'Tenor Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $highlight-font: 'Archivo Black', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family: $sans-serif !default;
+
+$font-family: $sans-serif !default; // Standard font family
 
 //Grid Variables
 $container-width: 960px !default;

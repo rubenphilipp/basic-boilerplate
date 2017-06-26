@@ -31,14 +31,12 @@
 
 .u-aligner-item {
 	max-width: 100%;
-}
 
-.u-aligner-item-top {
-	@extend .u-aligner-item;
-	align-self: flex-start;
-}
+	&.top {
+		align-self: flex-start;
+	}
 
-.u-aligner-item-bottom {
-	@extend .u-aligner-item;
-	align-self: flex-end;
+	&.bottom {
+		align-self: flex-end;
+	}
 }

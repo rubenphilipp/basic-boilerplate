@@ -19,6 +19,10 @@
 
     <link rel="stylesheet" href="dist/styles/main.css">
 
+    <!-- Responsive Nav -->
+    <link rel="stylesheet" href="node_modules/responsive-nav/responsive-nav.css">
+    <script src="node_modules/responsive-nav/responsive-nav.js"></script>
+
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -42,16 +46,21 @@
     </section>
 
     <div class="container" style="margin-top: 30px;">
-    
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav> 
 
-      <h3>Grid</h3>
+      <nav class="nav" id="mainNav">
+        <ul>
+          <li><a href="#grid">Grid</a></li>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#lists">Lists</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#tables">Tables</a></li>
+        </ul>
+      </nav>
+
+      <hr />
+
+      <h3 id="grid">Grid</h3>
       <section class="row">
         <div class="one-third column">
           one-third column
@@ -63,7 +72,7 @@
 
       <hr />
 
-      <h3>Some typography</h3>
+      <h3 id="typography">Some typography</h3>
       <p>
         Lorem <a href="http://www.rubenphilipp.com" title="Ruben Philipp">ipsum</a> dolor sit <b>amet</b>, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et <i>dolore Magna</i> aliqua. Ut enim ad minim veniam,
@@ -75,7 +84,7 @@
 
       <hr />
 
-      <h3>Form elements</h3>
+      <h3 id="forms">Form elements</h3>
 
       <form>
         <div class="row">
@@ -103,7 +112,7 @@
 
       <hr />
 
-      <h3>Lists</h3>
+      <h3 id="lists">Lists</h3>
 
       <ul>
         <li>Item 1</li>
@@ -119,7 +128,7 @@
 
       <hr />
 
-      <h3>Some code</h3>
+      <h3 id="code">Some code</h3>
 
       <pre><code>.some-class {
         background-color: red;
@@ -127,7 +136,7 @@
 
       <hr />
 
-      <h3>Tables</h3>
+      <h3 id="tables">Tables</h3>
 
       <table class="u-full-width">
         <thead>
@@ -157,10 +166,19 @@
     </div>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    
+    <!-- enable Responsive Nav -->
+    <script>
+      var nav = responsiveNav("#mainNav", {
+        animate: true,
+        label: "Menu"
+      });
+    </script>
+
   </body>
 </html>

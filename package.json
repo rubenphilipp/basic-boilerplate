@@ -27,5 +27,8 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "responsive-nav": "^1.0.39"
   }
 }

@@ -16,6 +16,6 @@
 # COLOPHON
 
     Standards: CSS3/Sass, HTML5, JavaScript
-    Components: Gulp, Normalize.css, Skeleton/Skeleton-Sass, HTML5 Boilerplate
-    Software: Sublime Text 3
+    Components: Gulp, Normalize.css, Skeleton/Skeleton-Sass, HTML5 Boilerplate, Responsive Nav
+    Software: Sublime Text 3, Affinity Designer
     Icons: mouse scroll by Kid A from the Noun Project
