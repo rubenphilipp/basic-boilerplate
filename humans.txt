@@ -13,8 +13,9 @@
 
     Leon PHILIPP -- for continuous inspiration and overall support
 
-# TECHNOLOGY COLOPHON
+# COLOPHON
 
     Standards: CSS3/Sass, HTML5, JavaScript
     Components: Gulp, Normalize.css, Skeleton/Skeleton-Sass, HTML5 Boilerplate
     Software: Sublime Text 3
+    Icons: mouse scroll by Kid A from the Noun Project

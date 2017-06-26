@@ -29,10 +29,12 @@ in the project folder.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-## Credits
+## Colophon
 Based on Seth Coelen's [Skeleton-Sass](https://github.com/WhatsNewSaes/Skeleton-Sass), which usefully extends the famed [Skeleton Framework](http://getskeleton.com/) by David Gamache; additionally flavored using a few tricks from the [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate).
 Using Omnibus-Type's [Archivo Black](https://fonts.google.com/specimen/Archivo+Black) and Denis Masharov's [Tenor Sans](https://fonts.google.com/specimen/Tenor+Sans) font families. 
 Inspired by Matt Modrowski's [Gulp Workflow](http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/) and the [common Sass file architecture](https://www.sitepoint.com/architecture-sass-project/).
+The following icons used in the standard template are derivative work from [The Noun Project](http://thenounproject.com) and are licensed under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/3.0/):
+- [Mouse Scroll](https://thenounproject.com/term/mouse-scroll/496855/) (with downward arrows) by Kid A
 
 ## License
 Released under the MIT license.
