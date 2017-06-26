@@ -1,22 +1,19 @@
+@charset "utf-8";
+
 /* Vendor */
+@import "vendor/all";
 
-/* Base files. */
-@import "base/normalize";
-@import "base/variables";
-@import "base/functions";
-@import "base/base-styles";
-@import "base/utils";
-@import "base/typography";
+/* Base files */
+@import "base/all";
 
-/* Modules */
-@import "modules/grid";
-@import "modules/buttons";
-@import "modules/forms";
-@import "modules/lists";
-@import "modules/code";
-@import "modules/tables";
-@import "modules/spacing";
-@import "modules/media-queries";
-@import "modules/fs";
+/* Layout files */
+@import "layout/all";
 
-/* Pages */
+/* Components files */
+@import "components/all";
+
+/* Elements files */
+@import "elements/all";
+
+/* Pages files */
+@import "pages/all";
