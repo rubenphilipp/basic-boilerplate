@@ -29,10 +29,10 @@
       <header style="text-align: right; padding-right: 20px;">
         <a href="http://github.com/rubenphilipp/basic-boilerplate" title="view source on GitHub">view source on GitHub</a>
       </header>
-      <main style="padding-top: 25vh;">
+      <div class="content" style="padding-top: 25vh;">
         <h1>Let the journey start…</h1>
         <h2>…right now</h2>
-      </main>
+      </div>
       <footer style="text-align: center;">
         <p>created by <i>Ruben Philipp</i></p>
         <img src="dist/images/icons/mouse-scroll_down.svg" style="width: 1.5rem; height: auto; margin-bottom: 1.5rem;">
