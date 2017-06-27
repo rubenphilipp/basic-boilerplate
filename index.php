@@ -60,7 +60,7 @@
 
       <hr />
 
-      <h3 id="grid">Grid</h3>
+      <h4 id="grid">Grid</h4>
       <section class="row">
         <div class="one-third column">
           one-third column
@@ -72,7 +72,7 @@
 
       <hr />
 
-      <h3 id="typography">Some typography</h3>
+      <h4 id="typography">Some typography</h4>
       <p>
         Lorem <a href="http://www.rubenphilipp.com" title="Ruben Philipp">ipsum</a> dolor sit <b>amet</b>, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et <i>dolore Magna</i> aliqua. Ut enim ad minim veniam,
@@ -84,7 +84,7 @@
 
       <hr />
 
-      <h3 id="forms">Form elements</h3>
+      <h4 id="forms">Form elements</h4>
 
       <form>
         <div class="row">
@@ -112,7 +112,7 @@
 
       <hr />
 
-      <h3 id="lists">Lists</h3>
+      <h4 id="lists">Lists</h4>
 
       <ul>
         <li>Item 1</li>
@@ -128,7 +128,7 @@
 
       <hr />
 
-      <h3 id="code">Some code</h3>
+      <h4 id="code">Some code</h4>
 
       <pre><code>.some-class {
         background-color: red;
@@ -136,29 +136,29 @@
 
       <hr />
 
-      <h3 id="tables">Tables</h3>
+      <h4 id="tables">Tables 7</h4>
 
       <table class="u-full-width">
         <thead>
           <tr>
             <th>Name</th>
-            <th>Age</th>
-            <th>Sex</th>
+            <th>Year of Birth</th>
+            <th>Instrument</th>
             <th>Location</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Dave Gamache</td>
-            <td>26</td>
-            <td>Male</td>
-            <td>San Francisco</td>
+            <td>Ella Fitzgerald</td>
+            <td>1917</td>
+            <td>vocals</td>
+            <td>Newport News, Virginia</td>
           </tr>
           <tr>
-            <td>Dwayne Johnson</td>
-            <td>42</td>
-            <td>Male</td>
-            <td>Hayward</td>
+            <td>Thelonious Monk</td>
+            <td>1917</td>
+            <td>piano</td>
+            <td>Rocky Mount, North Carolina</td>
           </tr>
         </tbody>
       </table>

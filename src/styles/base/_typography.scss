@@ -29,7 +29,8 @@ h2 {
 h3 { 
   font-size: 3.0rem; 
   line-height: 1.3;  
-  letter-spacing: -.1rem;  
+  letter-spacing: -.1rem;
+  text-transform: uppercase;
 }
 
 h4 { 
@@ -46,7 +47,10 @@ h5 {
 
 h6 { 
   font-size: 1.5rem; 
-  line-height: 1.6;  letter-spacing: 0;       
+  line-height: 1.6;  
+  letter-spacing: 0;       
+  font-family: $highlight-font;
+  text-transform: uppercase;
 }
 
 
