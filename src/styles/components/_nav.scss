@@ -1,12 +1,10 @@
 // Navigation Module
+// Breakpoint of 40em corresponds to the one set in responsive-nav.css (in Node Modules)
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .nav {
 	text-align: left;
-
-	@media screen and (min-width: 40em) {
-				text-align: center;
-			}
+	text-align: center;
 
 	ul {
 		list-style-type: none;
@@ -25,9 +23,7 @@
 	a {
 		display: inline-block;
 		border-bottom: 3px solid transparent;
-		margin-left: 1rem;
-		margin-top: 0;
-		margin-bottom: 0;
+		margin: 0;
 
 		@media screen and (min-width: 40em) {
 				margin: 0.3rem 0.5rem;
@@ -40,5 +36,24 @@
 		&.active {
 			border-bottom: 3px solid $primary-color;
 		}
+	}
+}
+
+// Responsive Nav specific styles (https://github.com/viljamis/responsive-nav.js)
+
+.nav-toggle {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	border-bottom: none;
+
+	&:hover {
+		border-bottom: none;
+	}
+
+	&.active {
+		opacity: 0.8;
 	}
 }
