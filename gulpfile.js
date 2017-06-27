@@ -27,7 +27,7 @@ var browserSync = require('browser-sync');
 gulp.task('browser-sync', function() {
 	connect.server({}, function(){
 		browserSync.init({
-			proxy: '127.0.0.1:8000'
+			proxy: '127.0.0.1:80' // change to fit your local server config
 		});
 	});
 });
