@@ -41,7 +41,6 @@
       </div>
       <footer class="fs-footer" style="text-align: center;">
         <p>created by <i>Ruben Philipp</i></p>
-        <img src="dist/images/icons/mouse-scroll_down.svg" style="width: 1.5rem; height: auto; margin-bottom: 1.5rem;">
       </footer>
     </section>
 
